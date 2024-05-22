@@ -7,11 +7,15 @@
 
 
 # Imyeomsu - Lck X 우리은행 
-클라우드 환경에서 고가용성 고려한 탄력적 서비스를 위한 LCK X 우리은행 ImYeomSu 팀의 서비스 입니다.
+클라우드 환경에서 고가용성을 고려한 탄력적 서비스, LCK X 우리은행 ImYeomSu 팀의 서비스 입니다.
 ## ImYeomSu Server
 - [ImYeomsu - crawling Server](https://github.com/I-m-YeomSu/imyeomsu-crawling)
 - [ImYeomsu - Batch Server](https://github.com/I-m-YeomSu/imyeomsu-batch)
 - [ImYeomsu - Common Utils Server](https://github.com/I-m-YeomSu/imyeomsu-lck-common-utils)
+## ImYeomSu Docs
+- [임염수팀 WBS](https://docs.google.com/spreadsheets/d/1I1WK-1JCvNs0hG4PDDv7Ypw4TtAw7-VgCnqHPtyDScw/edit#gid=0)
+- [임염수팀 ERD](https://www.erdcloud.com/d/bgob3mffRuqrbbxDd)
+
 
 # Application
 ## Application Architecture
@@ -62,7 +66,6 @@
   <img src="https://img.shields.io/badge/-Slf4j-189C01?style=flat" />
 </div>
 
-
 ### ETC - 기타 
 <img src="https://img.shields.io/badge/-Jitpack-33485C?style=flat"/>
 
@@ -94,7 +97,7 @@
 
 ## 우리는 왜 EKS를 선택했을까?
 - [임염수 팀이 EKS를 선택한 이유는 무엇일까?](https://github.com/I-m-YeomSu/imyeomsu-lck/issues/87)
-
+- [우리 팀은 도커 컴포즈 대신 K8S를 사용한 이유가 무엇일까?](https://github.com/I-m-YeomSu/imyeomsu-lck/issues/89)
 
 ## CI/CD
 ### 1. CI/CD Flow
@@ -108,8 +111,10 @@
 ## Log and Monitoring - 로그와 모니터링 
 ### 1. Application Log and Monitoring
 ![image](https://github.com/I-m-YeomSu/imyeomsu-lck/assets/81970382/a36c826e-8201-44f6-89b1-97b7d805e7b2)
-- [우리는 어떻게 애플리케이션 레벌의 로그를 정제하고 사용했을까?](https://github.com/I-m-YeomSu/imyeomsu-lck/issues/86)
+- [우리는 어떻게 애플리케이션 레벨의 로그를 정제하고 사용했을까?](https://github.com/I-m-YeomSu/imyeomsu-lck/issues/86)
 
+### 2. System Metric 
+- [우리는 어떻게 메트릭 정보를 모니터링 했고 추후 어떻게 더 발전시켜 반영할 것인가?](https://github.com/I-m-YeomSu/imyeomsu-lck/issues/88)
 
 ## 대용량 트래픽 해결
 
