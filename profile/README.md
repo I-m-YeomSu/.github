@@ -83,13 +83,17 @@
 - 분산 환경에서 서버가 여러대인 경우를 고려한 세션 스토리지 도입
 - 세션 스토리지로 Redis 사용
 
-### 세션 유지를 위한 Redis(Session Storage)
+### 2. 세션 유지를 위한 Redis(Session Storage)
 - [분산 환경에서 세션 유지를 위해서 우리는 왜 redis를 선택했으며, 세션 스토리지 방식을 채택했을까?](https://github.com/I-m-YeomSu/imyeomsu-lck/issues/85)
 
-### 1. Concurrency Problem Sorving - 동시성 문제 해결
+### 3. Concurrency Problem Sorving - 동시성 문제 해결
 - 기존의 싱글 스레드를 제공하는 레디스를 세션 스토리지로 사용하고 있어 추가적인 인프라 구성이 없어 이를 동시성 문제 해결에 도입하고자 했다. 그러나 이 역시 분산 환경에서는 문제가 되었고 추가적으로 분산 환경에서의 동시성 문제 해결을 위해서 레디스 분산 락을 이용해서 이를 해결했다.
 - [싱글 쓰레드인 레디스를 이용한 동시성 이슈 해결 방법 - 동시성 문제 해결 (단일 서버)](https://github.com/I-m-YeomSu/imyeomsu-lck/issues/84)
 - [우리는 왜 레디스를 도입해서 분산 환경에서의 동시성 이슈를 해결했을까? - 동시성 문제 해결 (분산 서버)](https://github.com/I-m-YeomSu/imyeomsu-lck/issues/83)
+
+### 4. Batch Server Concurrency Problem sorving - 배치 서버에서의 동시성 문제 해결
+- 크롤링 후에 데이터를 레디스에서 관리하고 있다. 그러나 우리는 이를 Mysql과 같은 RDB에서 영속적으로 관리하고자 했다. 그래서 스케줄링을 걸어 해당 데이터를 주기적으로 싱크를 맞춰주고 있었는데 EKS 환경에서의 분산 환경 문제가 발생했다. 우리는 이를 해결 하기 위해서 멀티 환경에서의 스케줄 처리하기 라는 타이틀로 해결하고자 했다.
+- [분산 환경에서의 배치 스케줄링 작업에서의 데이터 동시성 문제는 어떻게 해결 했을까?]()
 
 # Infra
 ## System Architecture
