@@ -98,6 +98,8 @@
 # Infra
 ## System Architecture
 ![image](https://github.com/I-m-YeomSu/imyeomsu-lck/assets/81970382/0bed8ca7-52c9-4991-8ed7-3fe22dbd5afd)
+### 구성과 관련해서 .. 
+- [외부 통신과 보안 강화를 위한 Nat Gateway와 Bastion Host](https://github.com/I-m-YeomSu/imyeomsu-lck/issues/90)
 
 ## 우리는 왜 EKS를 선택했을까?
 - [임염수 팀이 EKS를 선택한 이유는 무엇일까?](https://github.com/I-m-YeomSu/imyeomsu-lck/issues/87)
