@@ -9,7 +9,8 @@
 # Imyeomsu - Lck X 우리은행 
 클라우드 환경에서 고가용성을 고려한 탄력적 서비스, LCK X 우리은행 ImYeomSu 팀의 서비스 입니다.
 ## ImYeomSu Server
-- [ImYeomsu - crawling Server](https://github.com/I-m-YeomSu/imyeomsu-crawling)
+- [ImYeomsu - Project Server](https://github.com/I-m-YeomSu/imyeomsu-lck)
+- [ImYeomsu - Crawling Server](https://github.com/I-m-YeomSu/imyeomsu-crawling)
 - [ImYeomsu - Batch Server](https://github.com/I-m-YeomSu/imyeomsu-batch)
 - [ImYeomsu - Common Utils Server](https://github.com/I-m-YeomSu/imyeomsu-lck-common-utils)
 ## ImYeomSu Docs
