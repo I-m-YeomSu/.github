@@ -83,7 +83,7 @@
 - 분산 환경에서 서버가 여러대인 경우를 고려한 세션 스토리지 도입
 - 세션 스토리지로 Redis 사용
 
-### 2. 세션 유지를 위한 Redis(Session Storage)
+### 2. Using Redis for Session Persistence - 세션 유지를 위한 레디스 사용
 - [분산 환경에서 세션 유지를 위해서 우리는 왜 redis를 선택했으며, 세션 스토리지 방식을 채택했을까?](https://github.com/I-m-YeomSu/imyeomsu-lck/issues/85)
 
 ### 3. Concurrency Problem Sorving - 동시성 문제 해결
@@ -91,10 +91,16 @@
 - [싱글 쓰레드인 레디스를 이용한 동시성 이슈 해결 방법 - 동시성 문제 해결 (단일 서버)](https://github.com/I-m-YeomSu/imyeomsu-lck/issues/84)
 - [우리는 왜 레디스를 도입해서 분산 환경에서의 동시성 이슈를 해결했을까? - 동시성 문제 해결 (분산 서버)](https://github.com/I-m-YeomSu/imyeomsu-lck/issues/83)
 
-### 4. Batch Server Concurrency Problem sorving - 배치 서버에서의 동시성 문제 해결
+### 4. Resolving Concurrency Issues in Batch Servers - 배치 서버에서의 동시성 문제 해결
 - 크롤링 후에 데이터를 레디스에서 관리하고 있다. 그러나 우리는 이를 Mysql과 같은 RDB에서 영속적으로 관리하고자 했다. 그래서 스케줄링을 걸어 해당 데이터를 주기적으로 싱크를 맞춰주고 있었는데 EKS 환경에서의 분산 환경 문제가 발생했다. 우리는 이를 해결 하기 위해서 멀티 환경에서의 스케줄 처리하기 라는 타이틀로 해결하고자 했다.
 - [분산 환경에서의 배치 스케줄링 작업에서의 데이터 동시성 문제는 어떻게 해결 했을까?]()
 
+### 5. Enhancing Code Reusability and Preventing Code Duplication by Libraryfying the Project - 프로젝트를 라이브러리화 하여 코드 중복을 방지하고 재사용성을 높힌 방법
+- 개발을 진행하면서 중복된 코드가 계속해서 늘어나고 있다는 문제를 느꼈습니다. 예를 들어, 공통으로 사용되는 DTO는 클래스명만 다르게 여러 번 중복 정의되어 있는 것을 발견했고, 예외 처리 관련 기능도 중복되어 구현되고 있음을 알게 되었습니다.
+- 또한 저희 팀은 테스트 커버리지를 80%로 설정하고 있었는데, 테스트 불가능한 코드가 계속해서 늘어나면서 목표에 도달하기가 어려워지고 있다는 것을 깨달았습니다.
+- 이러한 문제를 인식하고, 공통으로 사용하는 코드를 자바 라이브러리로 만들어 사용할 수 있도록 작업을 진행했습니다.
+- [프로젝트를 라이브러리화 하여 코드 중복을 방지하고 재사용성을 높힌 방법]()
+  
 # Infra
 ## System Architecture
 ![image](https://github.com/I-m-YeomSu/imyeomsu-lck/assets/81970382/0bed8ca7-52c9-4991-8ed7-3fe22dbd5afd)
