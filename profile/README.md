@@ -112,7 +112,7 @@
 
 # Infra
 ## System Architecture
-![image](https://github.com/I-m-YeomSu/imyeomsu-lck/assets/81970382/0bed8ca7-52c9-4991-8ed7-3fe22dbd5afd)
+![image](https://github.com/I-m-YeomSu/.github/assets/81970382/53e190f0-3978-4b41-94ad-3b4dd7850fd7)
 ### 구성과 관련해서 .. 
 - [외부 통신과 보안 강화를 위한 Nat Gateway와 Bastion Host](https://github.com/I-m-YeomSu/imyeomsu-lck/issues/90)
 - [7계층 통신이 필요한 웹 애플리케이션에 NLB를 사용한 이유와 우리팀의 구조적인 보안 문제 해결을 위한 서비스 아키텍처 구성에 대한 이유](https://github.com/I-m-YeomSu/imyeomsu-lck/issues/91)
