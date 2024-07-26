@@ -157,11 +157,17 @@
 - [쿠버네티스 대시보드 사용기](https://github.com/I-m-YeomSu/imyeomsu-lck/issues/93)
 - [쿠버네티스 대시보드와 관련된 트러블 슈팅](https://github.com/I-m-YeomSu/imyeomsu-lck/issues/92)
 
+## 보안과 관련한 요소
+### 1. LB레벨에서의 ACM과 HTTPS 사용
+
+### 2. NACLE과 Security Group을 이용한 포트 제한 사용
+
+### 3. Bastion host & NAT Gateway를 이용한 보안 강화
+
+
 ## 대용량 트래픽 해결
 
 ## 테스트 커버리지
-
-
 ### 테스트 커버리지 80%를 목표로 합니다.
 
 ## 추가적인 이야기
