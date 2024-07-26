@@ -1,10 +1,14 @@
-## Hi there 👋
-
+# 임염수 팀?
+## 전설같은 클엔 3대미녀..
 클라우드 엔지니어링 3대미녀가 있었는뎁쇼<br>
 김옥빈, 박은빈, 고아라 레츠고!<br>
 고아라는 떠나가고 이성미가 새로 합류했답니다.<br>
 (히든 멤버에는 수의 고모가 계셔요)
 
+## 임염수 팀 이름 유래
+- **임**유리의 임
+- **염**휘주의 염
+- 김**수** 황현**수**의 수
 
 # Imyeomsu - Lck X 우리은행 
 클라우드 환경에서 고가용성을 고려한 탄력적 서비스, LCK X 우리은행 ImYeomSu 팀의 서비스 입니다.
@@ -15,12 +19,21 @@
 - [ImYeomsu - Common Utils Server](https://github.com/I-m-YeomSu/imyeomsu-lck-common-utils)
 ## ImYeomSu Docs
 - [임염수팀 WBS](https://docs.google.com/spreadsheets/d/1I1WK-1JCvNs0hG4PDDv7Ypw4TtAw7-VgCnqHPtyDScw/edit#gid=0)
+  - ![image](https://github.com/user-attachments/assets/567a8328-2ad0-487a-90d5-3c7fc00891a0)
 - [임염수팀 ERD](https://www.erdcloud.com/d/bgob3mffRuqrbbxDd)
+
+## 실제 산출물 화면
+### 메인 화면
+![image](https://github.com/user-attachments/assets/7441b680-f3c6-4f3c-80a1-10517f402c0b)
+
+### 기타 이벤트 화면
+![image](https://github.com/user-attachments/assets/2190baf2-a88c-44d1-a09c-a31ebf328ae8)
 
 
 # Application
 ## Application Architecture
 ![image](https://github.com/I-m-YeomSu/imyeomsu-lck/assets/81970382/1625c015-3eab-4c6a-97c5-b7932ef1678d)
+
 
 ## Skills
 ### Front-end - 프론트엔드
