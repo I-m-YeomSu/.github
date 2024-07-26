@@ -29,11 +29,14 @@
 ### 기타 이벤트 화면
 ![image](https://github.com/user-attachments/assets/2190baf2-a88c-44d1-a09c-a31ebf328ae8)
 
+### 실제 시연 영상
+- [메인 화면 시연 영상](https://youtu.be/LsDtqAxcp10)
+- [핫타임 이벤트 시연 영상](https://youtu.be/HCsgDlwFV3s)
+- [ELK와 CloudWatch를 통한 모니터링 기술을 관리자 페이지를 통해 실제 실시간 모니터링하는 시연 영상](https://youtu.be/ZvQ2uB2Er_I)
 
 # Application
 ## Application Architecture
 ![image](https://github.com/I-m-YeomSu/imyeomsu-lck/assets/81970382/1625c015-3eab-4c6a-97c5-b7932ef1678d)
-
 
 ## Skills
 ### Front-end - 프론트엔드
